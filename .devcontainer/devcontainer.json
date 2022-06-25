@@ -11,7 +11,9 @@
 		"ms-python.vscode-pylance"
 	], 
 	
-	"workspaceFolder": "/root",
+	"workspaceMount": "source=${localWorkspaceFolder}/sub-folder,target=/workspace,type=bind",
+	"workspaceFolder": "/workspace", 
+	"remoteUser": "node", 
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
