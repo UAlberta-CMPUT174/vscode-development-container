@@ -1,6 +1,7 @@
 import requests
 import flake8
 import pytest
+import check50
 
 
 def main():
